@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Tracker Demo</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+<body>
+<div id="main-content" class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="button_id_connect">User Tracker Actions:</label>
+                    <button id="button_id_connect" class="btn btn-default" type="submit">Connect</button>
+                    <button id="button_id_disconnect" class="btn btn-default" type="submit" disabled="disabled">Disconnect</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="input_id_number_of_users">Total number of users connected:</label>
+                    <label id="input_id_number_of_users"></label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
