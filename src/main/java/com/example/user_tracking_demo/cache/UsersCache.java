@@ -18,6 +18,6 @@ public class UsersCache {
 
     public int userDisconnected() {
         // We can't have less than 0 connected users.
-        return connectedUsers.updateAndGet(nr -> nr > 0 ? nr -1 : nr);
+        return connectedUsers.updateAndGet(nr -> nr > 0 ? nr - 1 : nr);
     }
 }

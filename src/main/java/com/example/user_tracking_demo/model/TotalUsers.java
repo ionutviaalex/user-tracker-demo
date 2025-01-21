@@ -3,7 +3,7 @@ package com.example.user_tracking_demo.model;
 public class TotalUsers {
     public int totalUsers;
 
-    public TotalUsers() {}
+    public TotalUsers() {/*empty*/}
 
     public TotalUsers(int totalUsers) {
         this.totalUsers = totalUsers;

@@ -3,7 +3,7 @@ package com.example.user_tracking_demo.model;
 public class ConnectMessage {
     private String uuid;
 
-    public ConnectMessage() {}
+    public ConnectMessage() {/*empty*/}
 
     public ConnectMessage(String uuid) {
         this.uuid = uuid;
